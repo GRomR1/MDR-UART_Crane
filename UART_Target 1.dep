@@ -1,0 +1,35 @@
+Dependencies for Project 'UART', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_MDR32F9x.s)(0x4F5851DC)(--cpu Cortex-M3 -g --apcs=interwork -I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x--list .\startup_mdr32f9x.lst --xref -o .\startup_mdr32f9x.o --depend .\startup_mdr32f9x.d)
+F (.\system_MDR32F9x.c)(0x4F58555A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\system_mdr32f9x.o --omf_browse .\system_mdr32f9x.crf --depend .\system_mdr32f9x.d)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\MDR32F9x.h)(0x532C1D8A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\system_MDR32F9x.h)(0x532C1D8A)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\MDR32F9x_config.h)(0x532C1D8A)
+F (.\main.c)(0x559EDA3D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\MDR32F9x.h)(0x532C1D8A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\system_MDR32F9x.h)(0x532C1D8A)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\MDR32F9x_config.h)(0x532C1D8A)
+I (MDR32_UART.h)(0x559D140C)
+I (element.h)(0x559E3182)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+I (read_message.h)(0x559ED046)
+F (.\read_message.c)(0x559ED8EA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\read_message.o --omf_browse .\read_message.crf --depend .\read_message.d)
+I (read_message.h)(0x559ED046)
+I (element.h)(0x559E3182)
+I (MDR32_UART.h)(0x559D140C)
+I (F:\Programs\Keil4\ARM\ARMCC\include\string.h)(0x51C7EF84)
+F (.\MDR32_UART.c)(0x559D13FE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Programs\Keil4\ARM\RV31\INC-I F:\Programs\Keil4\ARM\CMSIS\Include-I F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x-o .\mdr32_uart.o --omf_browse .\mdr32_uart.crf --depend .\mdr32_uart.d)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\MDR32F9x.h)(0x532C1D8A)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7EF84)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C21F2)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\system_MDR32F9x.h)(0x532C1D8A)
+I (F:\Programs\Keil4\ARM\Inc\Milandr\MDR32F9x\MDR32F9x_config.h)(0x532C1D8A)

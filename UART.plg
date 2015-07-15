@@ -1,0 +1,611 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\GR\UART_ECHO\UART.uvproj
+Project File Date:  04/29/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=904 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=920 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(28): warning:  #223-D: function "UART1_init" declared implicitly
+main.c(29): warning:  #223-D: function "UART1_int" declared implicitly
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+main.c(49): warning:  #550-D: variable "temp" was set but never used
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1112 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(28): warning:  #223-D: function "UART1_init" declared implicitly
+main.c(29): warning:  #223-D: function "UART1_int" declared implicitly
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+main.c(49): warning:  #550-D: variable "temp" was set but never used
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1112 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(28): warning:  #223-D: function "UART1_init" declared implicitly
+main.c(29): warning:  #223-D: function "UART1_int" declared implicitly
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+main.c(49): warning:  #550-D: variable "temp" was set but never used
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1112 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(28): warning:  #223-D: function "UART1_init" declared implicitly
+main.c(29): warning:  #223-D: function "UART1_int" declared implicitly
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+main.c(49): warning:  #550-D: variable "temp" was set but never used
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1112 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(28): warning:  #223-D: function "UART1_init" declared implicitly
+main.c(29): warning:  #223-D: function "UART1_int" declared implicitly
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1120 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 4 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(28): warning:  #223-D: function "UART1_init" declared implicitly
+main.c(29): warning:  #223-D: function "UART1_int" declared implicitly
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1120 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(40): warning:  #550-D: variable "temp" was set but never used
+main.c(54): warning:  #1-D: last line of file ends without a newline
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1120 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(54): warning:  #1-D: last line of file ends without a newline
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1124 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.338V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(54): warning:  #1-D: last line of file ends without a newline
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1128 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.338V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(34): warning:  #223-D: function "send_string1" declared implicitly
+main.c(54): warning:  #1-D: last line of file ends without a newline
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1180 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+main.c(54): warning:  #1-D: last line of file ends without a newline
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1180 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1180 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1168 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.403V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+assembling startup_MDR32F9x.s...
+compiling system_MDR32F9x.c...
+compiling main.c...
+compiling MDR32_UART.c...
+linking...
+Program Size: Code=1148 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.423V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1160 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.248V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1180 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=1180 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1160 RO-data=224 RW-data=4 ZI-data=1636  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\GR\\UART_ECHO\\UART.AXF" 
+Set JLink Project File to "C:\GR\UART_ECHO\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 58002081 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: MDR32F9Q2I
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
